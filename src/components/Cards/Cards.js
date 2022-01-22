@@ -11,7 +11,10 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 
   return (
     <div className="container mt-5 text-center items-align-center">
-      <Grid container spacing={3} justifyContent="center" className="row">
+      <h3 className="display-4 text-center">Corona Status</h3>
+      <hr style={{ margin: "0 40%" }} />
+
+      <Grid container spacing={3} justifyContent="center" className="row mt-3">
         <Grid
           item
           component={Card}
