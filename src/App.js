@@ -30,11 +30,11 @@ class App extends React.Component {
     return loading ? (
       <div className="d-flex justify-content-center mt-5">
         <div
-          class="spinner-border text-warning"
+          className="spinner-border text-warning"
           style={{ width: "6rem", height: "6rem" }}
           role="status"
         >
-          <span class="visually-hidden">Loading...</span>
+          <span className="visually-hidden">Loading...</span>
         </div>
       </div>
     ) : (

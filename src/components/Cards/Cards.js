@@ -21,7 +21,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={`mx-2 my-2 col-md-3 ${styles.infected}`}
         >
           <CardContent>
-            <i class="my-2 fa-5x text-primary fa-2x fas fa-bacterium"></i>
+            <i className="my-2 fa-5x text-primary fa-2x fas fa-bacterium"></i>
             <Typography variant="h4" color="textSecondary" gutterBottom>
               Infected
             </Typography>
@@ -45,7 +45,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={`mx-2 my-2 col-md-3  ${styles.recovered}`}
         >
           <CardContent>
-            <i class="my-2 fa-5x text-success fa-2x fas fa-ambulance"></i>
+            <i className="my-2 fa-5x text-success fa-2x fas fa-ambulance"></i>
             <Typography variant="h4" color="textSecondary" gutterBottom>
               Recovered
             </Typography>
@@ -69,7 +69,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           className={`mx-2 my-2 col-md-3  ${styles.deaths}`}
         >
           <CardContent>
-            <i class="my-2 fa-5x text-danger fas fa-skull-crossbones"></i>
+            <i className="my-2 fa-5x text-danger fas fa-skull-crossbones"></i>
             <Typography variant="h4" color="textSecondary" gutterBottom>
               Deaths
             </Typography>
