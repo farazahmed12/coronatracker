@@ -2,6 +2,7 @@
 
 <p>A project based on Panacloud React Bootcamp [Project 2]</p>
 
+<h3>For Project Demo Follow the Link (github pages): https://farazahmed12.github.io/coronatracker/</h3>
 
 <hr />
 <h3> ⚙ Skills:</h3>
@@ -21,7 +22,7 @@
 </ul>
 
 <hr />
-<a href='https://github.com/farazahmed12' target="_blank">
+<a href='https://farazahmed12.github.io/coronatracker/' target="_blank">
 <img width='80%' height='750px' alt='Expense app snapshot' src="https://user-images.githubusercontent.com/79910338/151788120-f5ba6e57-fb94-430e-94a3-c91b218947a6.png"/>
 </a>
 
